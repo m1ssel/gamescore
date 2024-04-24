@@ -1,0 +1,24 @@
+.side-border {
+  width: 50vh;
+  height: 90.7vh;
+  border-right: 0.5px solid #00000025;
+  border-top: 1px solid #00000000;
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 55px 30px;
+    .recent {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+    .recent-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}

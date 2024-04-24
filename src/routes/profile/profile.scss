@@ -1,0 +1,117 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  margin: 70px auto;
+  .container {
+    display: flex;
+    width: 120vh;
+    height: 70vh;
+    .games-container {
+      width: 60vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #00000025;
+      .sort-container {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        .sort {
+          font-size: 15px;
+          margin-right: 10px;
+          font-weight: 400;
+        }
+        .sort-item {
+          border: 0;
+          background: none;
+          cursor: pointer;
+          padding: 5px 10px;
+          color: #464646;
+        }
+        .sort-first {
+          border: 0.5px solid #00000025;
+          border-bottom-left-radius: 15px;
+          border-top-left-radius: 15px;
+        }
+        .sort-second {
+          border-top: 0.5px solid #00000025;
+          border-right: 0.5px solid #00000025;
+          border-bottom: 0.5px solid #00000025;
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+        }
+      }
+
+      .games-head {
+        margin-bottom: 20px;
+      }
+      .games-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 45vh;
+        text-align: center;
+        span {
+          font-size: 20px;
+          background: #ecc75b;
+          padding: 5px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  .folders-container {
+    width: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #00000025;
+    border-bottom: 1px solid #00000025;
+    border-right: 1px solid #00000025;
+    .sort-container {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      .sort {
+        font-size: 15px;
+        margin-right: 10px;
+        font-weight: 400;
+      }
+      .sort-item {
+        border: 0;
+        background: none;
+        cursor: pointer;
+        padding: 5px 10px;
+        color: #464646;
+      }
+      .sort-first {
+        border: 0.5px solid #00000025;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+      .sort-second {
+        border-top: 0.5px solid #00000025;
+        border-right: 0.5px solid #00000025;
+        border-bottom: 0.5px solid #00000025;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+      }
+    }
+    .folders-head {
+      margin-bottom: 20px;
+    }
+    .folders-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 45vh;
+      text-align: center;
+      span {
+        font-size: 20px;
+        background: #ecc75b;
+        padding: 5px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
