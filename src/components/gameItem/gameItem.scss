@@ -1,0 +1,9 @@
+.card {
+  width: calc(25% - 20px); /* 25% ширины контейнера минус промежуток */
+  max-width: 200px; /* Максимальная ширина карточки */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+}
